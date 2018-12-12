@@ -46,15 +46,14 @@ const Header = () => {
   return (
     <Intro>
       <Title>
-        Hi
+        Greetings
         <span>.</span>
       </Title>
       <Description>
         <p>
-          I'm LekoArts and I create starters for Gatsby.js
+          I am Michael Johnson and I am a developer
           <span>.</span> <br />
-          If you're a designer (and front-end developer) like me or a photographer you'll enjoy my Gatsby projects
-          as those two groups are the target audience
+          My tech stack experience includes Python (Django), JavaScript (Ember/React) and AWS, but as a former chemical engineer and educator, my thurst for learning new techniques is strong
           <span>.</span> You can bootstrap your personal project quick & easy with my minimalistic and fast
           starters
           <span>.</span>
