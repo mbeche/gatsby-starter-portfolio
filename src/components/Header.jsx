@@ -53,20 +53,21 @@ const Header = () => {
         <p>
           I am Michael Johnson and I am a developer
           <span>.</span> <br />
-          My tech stack experience includes Python (Django), JavaScript (Ember/React) and AWS, but as a former chemical engineer and educator, my thurst for learning new techniques is strong
-          <span>.</span> You can bootstrap your personal project quick & easy with my minimalistic and fast
-          starters
+          My current tech stack includes Python (Django), JavaScript (Ember/React), AWS, and WordPress
+          <span>.</span> I am educated as a chemical engineer and am a former science educator,
+          <span>.</span> The thurst for learning, growing and sharing is strong
           <span>.</span>
+
         </p>
       </Description>
       <Social>
-        <Homepage role="button" href="https://www.lekoarts.de">
-          Homepage
+        <Homepage role="button" href="https://github.com/mbeche">
+          Github
         </Homepage>
-        <GitHub role="button" href="https://github.com/LeKoArts">
-          GitHub
+        <GitHub role="button" href="https://www.linkedin.com/in/mbjohnsonche/">
+          LinkedIn
         </GitHub>
-        <Twitter role="button" href="https://twitter.com/lekoarts_de">
+        <Twitter role="button" href="https://twitter.com/mDevStix">
           Twitter
         </Twitter>
       </Social>
