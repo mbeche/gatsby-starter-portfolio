@@ -51,11 +51,13 @@ const Header = () => {
       </Title>
       <Description>
         <p>
-          I am Michael Johnson and I am a developer
+          I am Michael Johnson, a developer
           <span>.</span> <br />
-          My current tech stack includes Python (Django), JavaScript (Ember/React), AWS, and WordPress
-          <span>.</span> I am educated as a chemical engineer and am a former science educator,
-          <span>.</span> The thurst for learning, growing and sharing is strong
+          My current tech stack practice includes Python (Django), JavaScript (Ember/React), and WordPress
+          <span>.</span> <br />
+          Chemical engineering MSci and former science educator
+          <span>.</span> <br />
+          The thurst for learning, growing and sharing is strong with this one
           <span>.</span>
 
         </p>

@@ -1,18 +1,18 @@
-- title: 'Emma'
-  url: 'https://github.com/LekoArts/gatsby-starter-portfolio-emma'
-  name: 'portfolio-emma'
-  preview: 'https://portfolio-emma.netlify.com/'
-  description: 'Full-width grid with large images and a light theme'
-  cover: './emma.jpg'
+- title: 'Original Portfolio'
+  url: 'https://github.com/mbeche/mbeche.github.io'
+  name: 'gitub-portfolio'
+  preview: 'https://mbeche.github.io/'
+  description: 'Early 2018 when I first learned CSS and Git. Enter at your own stylistic risk 😅'
+  cover: './portfolio.png'
   features:
     - CSS Grid
     - Emotion
-- title: 'Emilia'
-  url: 'https://github.com/LekoArts/gatsby-starter-portfolio-emilia'
+- title: 'IMTwitter'
+  url: 'https://github.com/mbeche/mysite-imtwitter'
   name: 'portfolio-emilia'
-  preview: 'https://portfolio-emilia.netlify.com/'
+  preview: 'http://imtwitter.mdevstix.com/'
   description: 'A dark themed One-Page layout with an image grid'
-  cover: './emilia.jpg'
+  cover: './imtwitter.png'
   features:
     - React Overdrive
     - CSS Grid
