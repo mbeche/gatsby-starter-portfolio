@@ -1,58 +1,29 @@
-- title: 'Original Portfolio'
-  url: 'https://github.com/mbeche/mbeche.github.io'
-  name: 'gitub-portfolio'
-  preview: 'https://mbeche.github.io/'
-  description: 'Early 2018 when I first learned CSS and Git. Enter at your own stylistic risk 😅'
-  cover: './portfolio.png'
+- title: "Original Portfolio"
+  url: "https://github.com/mbeche/mbeche.github.io"
+  name: "gitub-portfolio"
+  preview: "https://mbeche.github.io/"
+  description: "Early 2018 when I first learned CSS and Git. Enter at your own stylistic risk 😅"
+  cover: "./portfolio.png"
   features:
-    - CSS Grid
-    - Emotion
-- title: 'IMTwitter'
-  url: 'https://github.com/mbeche/mysite-imtwitter'
-  name: 'portfolio-emilia'
-  preview: 'http://imtwitter.mdevstix.com/'
-  description: 'A dark themed One-Page layout with an image grid'
-  cover: './imtwitter.png'
+    - SASS
+    - Git
+- title: "IMTwitter"
+  url: "https://github.com/mbeche/mysite-imtwitter"
+  name: "IMTwitter"
+  preview: "http://imtwitter.mdevstix.com/"
+  description: "Interview project creating a twitter like app"
+  cover: "./imtwitter.png"
   features:
-    - React Overdrive
-    - CSS Grid
-    - Emotion
-- title: 'Bella'
-  url: 'https://github.com/LekoArts/gatsby-starter-portfolio-bella'
-  name: 'portfolio-bella'
-  preview: 'https://portfolio-bella.netlify.com/'
-  description: 'A bright single-page portfolio powered by Prismic'
-  cover: './bella.jpg'
+    - Django
+    - Postgres
+    - Authentication
+- title: "Blog Theme"
+  url: "https://github.com/mbeche/hippo"
+  name: "hippo"
+  preview: "http://hippo.mdevstix.com/"
+  description: "Classic PSD to HTML & CSS to WordPress theme conversion"
+  cover: "./hippo.png"
   features:
-    - Prismic.io
-    - Emotion
-- title: 'Cara'
-  url: 'https://github.com/LekoArts/gatsby-starter-portfolio-cara'
-  name: 'portfolio-cara'
-  preview: 'https://portfolio-cara.netlify.com/'
-  description: 'Playful & Colorful One-Page website with Parallax effect'
-  cover: './cara.jpg'
-  features:
-    - TailwindCSS
-    - React Spring
-    - Emotion
-- title: 'Minimal Blog'
-  url: 'https://github.com/LekoArts/gatsby-starter-minimal-blog'
-  name: 'minimal-blog'
-  preview: 'https://minimal-blog.netlify.com/'
-  description: 'Minimal blog focused on the content'
-  cover: './minimal.jpg'
-  features:
-    - Styled Components
-    - Markdown
-- title: 'Prismic'
-  url: 'https://github.com/LekoArts/gatsby-starter-prismic'
-  name: 'prismic'
-  preview: 'https://gatsby-starter-prismic.netlify.com/'
-  description: 'Typography-heavy & light-themed starter powered by Prismic'
-  cover: './prismic.jpg'
-  features:
-    - Prismic.io
-    - Emotion
-    - Gatsby-Image
-    - PrismJS
+    - PSD to HTML/CSS
+    - WP Theme Coding
+    - Local to Live Migration
