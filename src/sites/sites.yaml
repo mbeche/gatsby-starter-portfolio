@@ -27,3 +27,11 @@
     - PSD to HTML/CSS
     - WP Theme Coding
     - Local to Live Migration
+- title: "Meta Lark Design"
+  url: ""
+  name: "metalark"
+  preview: "http://www.metalarkdesign.com/"
+  description: "Web design side gig with my partner"
+  cover: "./metalarkdesign.png"
+  features:
+    - WP Divi Child Theme
