@@ -3,6 +3,7 @@
   name: "gitub-portfolio"
   preview: "https://mbeche.github.io/"
   description: "Early 2018 when I first learned CSS and Git. Enter at your own stylistic risk 😅"
+  created: "March 2018"
   cover: "./portfolio.png"
   features:
     - SASS
@@ -12,6 +13,7 @@
   name: "IMTwitter"
   preview: "http://imtwitter.mdevstix.com/"
   description: "Interview project creating a twitter like app"
+  created: "May 2018"
   cover: "./imtwitter.png"
   features:
     - Django
@@ -22,6 +24,7 @@
   name: "hippo"
   preview: "http://hippo.mdevstix.com/"
   description: "Classic PSD to HTML & CSS to WordPress theme conversion"
+  created: "April 2018"
   cover: "./hippo.png"
   features:
     - PSD to HTML/CSS
@@ -32,6 +35,7 @@
   name: "metalark"
   preview: "http://www.metalarkdesign.com/"
   description: "Web design side gig with my partner"
+  created: "September 2018"
   cover: "./metalarkdesign.png"
   features:
     - WP Divi Child Theme
