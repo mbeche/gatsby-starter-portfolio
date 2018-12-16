@@ -324,8 +324,10 @@ class Index extends Component {
             </Description>
           </Content>
           <Footer>
-            Design by <OutboundLink href="https://www.lekoarts.de">LekoArts</OutboundLink>.{' '}
-            <OutboundLink href="https://github.com/LeKoArts/gatsby-starter-portfolio">Source</OutboundLink>.
+            <p>Design by <OutboundLink href="https://www.lekoarts.de">LekoArts</OutboundLink>.{' '}
+            <OutboundLink href="https://github.com/LeKoArts/gatsby-starter-portfolio">Source</OutboundLink>.</p>
+            Repurposed by Michael Johnson.{' '}
+            <p><OutboundLink href="https://github.com/mbeche/gatsby-starter-portfolio">Source</OutboundLink>.</p>
           </Footer>
         </Page>
       </React.Fragment>
