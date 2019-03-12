@@ -42,39 +42,36 @@ const Twitter = styled(Button)`
   ${tw('bg-blue text-white')};
 `;
 
-const Header = () => {
-  return (
-    <Intro>
-      <Title>
-        Greetings
+const Header = () => (
+  <Intro>
+    <Title>
+      Greetings
+      <span>.</span>
+    </Title>
+    <Description>
+      <p>
+        I am Michael Johnson, a developer
+        <span>.</span> <br />
+        My current tech stack practice includes Python (Django), JavaScript (Ember/React), and WordPress
+        <span>.</span> <br />
+        Chemical engineering MSci and former science educator
+        <span>.</span> <br />
+        The thurst for learning, growing and sharing is strong with this one
         <span>.</span>
-      </Title>
-      <Description>
-        <p>
-          I am Michael Johnson, a developer
-          <span>.</span> <br />
-          My current tech stack practice includes Python (Django), JavaScript (Ember/React), and WordPress
-          <span>.</span> <br />
-          Chemical engineering MSci and former science educator
-          <span>.</span> <br />
-          The thurst for learning, growing and sharing is strong with this one
-          <span>.</span>
-
-        </p>
-      </Description>
-      <Social>
-        <Homepage role="button" href="https://github.com/mbeche">
-          Github
-        </Homepage>
-        <GitHub role="button" href="https://www.linkedin.com/in/mbjohnsonche/">
-          LinkedIn
-        </GitHub>
-        <Twitter role="button" href="https://twitter.com/mDevStix">
-          Twitter
-        </Twitter>
-      </Social>
-    </Intro>
-  );
-};
+      </p>
+    </Description>
+    <Social>
+      <Homepage role="button" href="https://github.com/mbeche">
+        Github
+      </Homepage>
+      <GitHub role="button" href="https://www.linkedin.com/in/mbjohnsonche/">
+        LinkedIn
+      </GitHub>
+      <Twitter role="button" href="https://twitter.com/mDevStix">
+        Twitter
+      </Twitter>
+    </Social>
+  </Intro>
+);
 
 export default Header;
