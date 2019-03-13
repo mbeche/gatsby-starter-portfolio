@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: 'Gatsby Starter Portfolio Overview by LekoArts',
+    siteTitle: 'Dev Portfolio - Michael Johnson',
     siteUrl: 'https://gatsby-starter-portfolio.netlify.com',
   },
   plugins: [

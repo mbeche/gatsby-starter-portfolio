@@ -52,9 +52,9 @@ const Header = () => (
       <p>
         I am Michael Johnson, a developer
         <span>.</span> <br />
-        My current tech stack practice includes Python (Django), JavaScript (Ember/React), and WordPress
+        My primary tech practice includes Python (Django), JavaScript (Ember/React), and WordPress
         <span>.</span> <br />
-        Chemical engineering MSci and former science educator
+        Chemical engineering MSci and former university science instructor
         <span>.</span> <br />
         The thurst for learning, growing and sharing is strong with this one
         <span>.</span>

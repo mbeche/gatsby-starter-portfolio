@@ -223,31 +223,65 @@ class Index extends Component {
           <title>{siteMetadata.siteTitle}</title>
           <meta
             name="description"
-            content="Gatsby.js Starters by LekoArts. Primarily aimed at Designers & Photographers. Minimalistic & fast websites!"
+            content="Michael Johnson's development portfolio, built with Gatsby.js, based on the starter portfolio by LekoArts."
           />
           <meta name="image" content={favicon} />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:site_name" content="lekoarts.de" />
-          <meta property="og:url" content="https://gatsby-starter-portfolio.netlify.com" />
-          <meta property="og:title" content="Gatsby Starter Portfolio Overview by LekoArts" />
+          <meta property="og:site_name" content="mdevstix.com" />
+          <meta property="og:url" content="https://mdevstix.netlify.com" />
+          <meta property="og:title" content="Dev Portfolio - Michael Johnson" />
           <meta
             property="og:description"
-            content="Gatsby.js starters by LekoArts. Primarily aimed at Designers & Photographers. Minimalistic & fast websites!"
+            content="Michael Johnson's development portfolio, built with Gatsby.js, based on the starter portfolio by LekoArts."
           />
           <meta property="og:image" content={favicon} />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:creator" content="@lekoarts.de" />
-          <meta name="twitter:title" content="Gatsby Starter Portfolio Overview by LekoArts" />
+          <meta name="twitter:creator" content="@mdevstix" />
+          <meta name="twitter:title" content="Dev Portfolio - Michael Johnson" />
           <meta
             name="twitter:description"
-            content="Gatsby.js starters by LekoArts. Primarily aimed at Designers & Photographers. Minimalistic & fast websites!"
+            content="Michael Johnson's development portfolio, built with Gatsby.js, based on the starter portfolio by LekoArts."
           />
           <meta name="twitter:image" content={favicon} />
         </Helmet>
         <Page>
           <Header />
           <SliderWrapper>
-            <Heading>Overview</Heading>
+            <Heading>Independent Projects</Heading>
+            <Grid>
+              {edges.map(site => {
+                console.log(site)
+                const { id, title, description, created, preview, features, cover, url } = site.node;
+                return (
+                  <Item key={id}>
+                    <ItemContent>
+                      <Top>
+                        <Preview href={preview}>
+                          Preview <img src={rightArrow} alt="Arrow" aria-hidden="true" />
+                        </Preview>
+                        <p><Repo href={url}>
+                          <img src={github} alt="Arrow" aria-hidden="true" />GitHub
+                        </Repo></p>
+                        <Desc>{description}</Desc>
+                      </Top>
+                      <Bottom>
+                        <ItemTitle>{title}</ItemTitle>
+                        <Desc>{created}</Desc>
+                        <Divider />
+                        <FeaturesWrapper>{features.join(', ')}</FeaturesWrapper>
+                      </Bottom>
+                      <BGImage>
+                        <Gradient />
+                        <Img fluid={cover.childImageSharp.fluid} />
+                      </BGImage>
+                    </ItemContent>
+                  </Item>
+                );
+              })}
+            </Grid>
+          </SliderWrapper>
+          <SliderWrapper>
+            <Heading>Tutorial/Course Projects</Heading>
             <Grid>
               {edges.map(site => {
                 const { id, title, description, created, preview, features, cover, url } = site.node;
