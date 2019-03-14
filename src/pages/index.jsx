@@ -98,16 +98,21 @@ const Item = styled.div`
   }
 `;
 
-const ItemContent = styled.div`
-  ${tw("py-8 px-6 flex flex-wrap content-between relative")};
+const Gradient = styled.div`
+  ${tw("absolute pin rounded-lg z-20")};
+  transition: background 0.3s linear;
 `;
 
 const Top = styled.div`
   ${tw("z-30 flex flex-col")};
+  transition: opacity 0.3s linear;
+  opacity: 0;
 `;
 
 const Bottom = styled.div`
   ${tw("z-30")};
+  transition: opacity 0.3s linear;
+  opacity: 0;
 `;
 
 const Preview = styled(OutboundLink)`
@@ -151,6 +156,22 @@ const Desc = styled.div`
   ${tw("text-sm text-white opacity-75")};
 `;
 
+const ItemContent = styled.div`
+  ${tw("py-8 px-6 flex flex-wrap content-between relative")};
+  &:hover {
+    img {
+      ${tw("rounded-lg")};
+      opacity: 0.2 !important;
+    }
+  }
+  &:hover ${Gradient} {
+    background: rgba(0, 0, 0, 0.75);
+  }
+  &:hover ${Top}, &:hover ${Bottom} {
+    opacity: 1;
+  }
+`;
+
 const BGImage = styled.div`
   ${tw("absolute pin rounded-lg")};
   .gatsby-image-outer-wrapper {
@@ -161,21 +182,12 @@ const BGImage = styled.div`
   }
   img {
     ${tw("rounded-lg")};
-    opacity: 0.5 !important;
+    opacity: 0.9 !important;
   }
 `;
 
 const ItemTitle = styled.h2`
   ${tw("text-white text-3xl mb-4")};
-`;
-
-const Gradient = styled.div`
-  ${tw("absolute pin rounded-lg z-20")};
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0) 40%,
-    rgba(0, 0, 0, 0.75) 100%
-  );
 `;
 
 const Divider = styled.div`
@@ -350,7 +362,11 @@ class Index extends Component {
                           </Preview>
                           <p>
                             <Repo href={url}>
-                              <img src={github} alt="Arrow" aria-hidden="true" />
+                              <img
+                                src={github}
+                                alt="Arrow"
+                                aria-hidden="true"
+                              />
                               GitHub
                             </Repo>
                           </p>
@@ -360,7 +376,9 @@ class Index extends Component {
                           <ItemTitle>{title}</ItemTitle>
                           <Desc>{created}</Desc>
                           <Divider />
-                          <FeaturesWrapper>{features.join(", ")}</FeaturesWrapper>
+                          <FeaturesWrapper>
+                            {features.join(", ")}
+                          </FeaturesWrapper>
                         </Bottom>
                         <BGImage>
                           <Gradient />
@@ -403,12 +421,12 @@ export default Index;
 Index.propTypes = {
   data: PropTypes.shape({
     allSitesYaml: PropTypes.shape({
-      edges: PropTypes.array.isRequired,
+      edges: PropTypes.array.isRequired
     }),
     site: PropTypes.shape({
-      siteMetadata: PropTypes.object.isRequired,
-    }),
-  }).isRequired,
+      siteMetadata: PropTypes.object.isRequired
+    })
+  }).isRequired
 };
 
 export const overviewQuery = graphql`
