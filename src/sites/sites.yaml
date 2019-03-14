@@ -1,26 +1,16 @@
-- title: "Original Portfolio"
-  url: "https://github.com/mbeche/mbeche.github.io"
-  name: "gitub-portfolio"
-  preview: "https://mbeche.github.io/"
-  description: "Early 2018 when I first learned CSS and Git. Enter at your own stylistic risk 😅"
-  created: "March 2018"
-  cover: "./portfolio.png"
+- title: "Meta Lark Design"
+  url: "http://www.metalarkdesign.com/"
+  type: "independent"
+  name: "metalark"
+  preview: "http://www.metalarkdesign.com/"
+  description: "Web design side gig with my partner"
+  created: "September 2018"
+  cover: "./metalarkdesign.png"
   features:
-    - SASS
-    - Git
-- title: "IMTwitter"
-  url: "https://github.com/mbeche/mysite-imtwitter"
-  name: "IMTwitter"
-  preview: "http://imtwitter.mdevstix.com/"
-  description: "Interview project creating a twitter like app"
-  created: "May 2018"
-  cover: "./imtwitter.png"
-  features:
-    - Django
-    - Postgres
-    - Authentication
+    - WP Divi Child Theme
 - title: "Blog Theme"
   url: "https://github.com/mbeche/hippo"
+  type: "independent"
   name: "hippo"
   preview: "http://hippo.mdevstix.com/"
   description: "Classic PSD to HTML & CSS to WordPress theme conversion"
@@ -30,12 +20,49 @@
     - PSD to HTML/CSS
     - WP Theme Coding
     - Local to Live Migration
-- title: "Meta Lark Design"
-  url: "http://www.metalarkdesign.com/"
-  name: "metalark"
-  preview: "http://www.metalarkdesign.com/"
-  description: "Web design side gig with my partner"
-  created: "September 2018"
-  cover: "./metalarkdesign.png"
+- title: "IMTwitter"
+  url: "https://github.com/mbeche/mysite-imtwitter"
+  type: "independent"
+  name: "IMTwitter"
+  preview: "http://imtwitter.mdevstix.com/"
+  description: "Interview project creating a twitter like app"
+  created: "May 2018"
+  cover: "./imtwitter.png"
   features:
-    - WP Divi Child Theme
+    - Django
+    - Postgres
+    - Authentication
+- title: "Original Portfolio"
+  url: "https://github.com/mbeche/mbeche.github.io"
+  type: "independent"
+  name: "gitub-portfolio"
+  preview: "https://mbeche.github.io/"
+  description: "Early 2018 when I first learned CSS and Git. Enter at your own stylistic risk 😅"
+  created: "March 2018"
+  cover: "./portfolio.png"
+  features:
+    - SASS
+    - Git
+- title: "Catch of the Day"
+  url: "https://github.com/mbeche/COTD-React-Course"
+  type: "learning"
+  name: "cotd"
+  preview: "http://catch-of-the-day-mdevstix.netlify.com/"
+  description: "Final Product of Wes Bos' Intro to React Course"
+  created: "December 2018"
+  cover: "./cotd-bos.png"
+  features:
+    - Basic React App
+    - Firebase Backend
+    - Authentication
+- title: "RGB Color Game"
+  url: "https://github.com/mbeche/mbeche.github.io/tree/master/rgb-game"
+  type: "learning"
+  name: "cotd"
+  preview: "https://mbeche.github.io/rgb-game/15-176-color-game.html"
+  description: "Guess and learn RGB better. Built as part of the Web Development Bootcamp by Colt Steele on Udemy."
+  created: "December 2018"
+  cover: "./color-game.png"
+  features:
+    - HTML, CSS
+    - 100% Vanilla JS
