@@ -101,18 +101,27 @@ const Item = styled.div`
 const Gradient = styled.div`
   ${tw("absolute pin rounded-lg z-20")};
   transition: background 0.3s linear;
+  @media (max-width: 500px) {
+    background: rgba(0, 0, 0, 0.85);
+  }
 `;
 
 const Top = styled.div`
   ${tw("z-30 flex flex-col")};
   transition: opacity 0.3s linear;
   opacity: 0;
+    @media (max-width: 500px) {
+      opacity: 1;
+    }
 `;
 
 const Bottom = styled.div`
   ${tw("z-30")};
   transition: opacity 0.3s linear;
   opacity: 0;
+  @media (max-width: 500px) {
+    opacity: 1;
+  }
 `;
 
 const Preview = styled(OutboundLink)`
@@ -158,14 +167,8 @@ const Desc = styled.div`
 
 const ItemContent = styled.div`
   ${tw("py-8 px-6 flex flex-wrap content-between relative")};
-  &:hover {
-    img {
-      ${tw("rounded-lg")};
-      opacity: 0.2 !important;
-    }
-  }
   &:hover ${Gradient} {
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.85);
   }
   &:hover ${Top}, &:hover ${Bottom} {
     opacity: 1;
